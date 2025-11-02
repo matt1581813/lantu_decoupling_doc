@@ -14,17 +14,15 @@
   返回参数解析（没有说明则不需要用到，为系统逻辑字段）
   
   | 参数       | 值                                                                                                   |
-| ---------- | ---------------------------------------------------------------------------------------------------- |
-| createTime | 创建时间                                                                                             |
-| id         | 主键                                                                                                 |
-| name       | 名称                                                                                                 |
-| user       | 用户名                                                                                               |
-| password   | 加密后密码密码                                                                                       |
-| status     | 状态 1：可用，0:不可用                                                                               |
-| type       | 类型:oracle、postgreSQL、kingbase、mongodb、shape、fgdb、 raster、highgo、dameng、mysql、mysql8      |
-| typeCode   | 01空间数据：0101矢量空间数据、0102矢量瓦片、0103栅格数据；02业务数据；03三维模型；04混数据源；05其他 |
-  
-  
+  | ------------ | --------------------------------------------------------------------------|
+  | createTime | 创建时间                                                                                             |
+  | id         | 主键                                                                                                 |
+  | name       | 名称                                                                                                 |
+  | user       | 用户名                                                                                               |
+  | password   | 加密后密码密码                                                                                       |
+  | status     | 状态 1：可用，0:不可用                                                                               |
+  | type       | 类型:oracle、postgreSQL、kingbase、mongodb、shape、fgdb、 raster、highgo、dameng、mysql、mysql8      |
+  | typeCode   | 01空间数据：0101矢量空间数据、0102矢量瓦片、0103栅格数据；02业务数据；03三维模型；04混数据源；05其他 |
 
 监听节点：
 zookeep中节点 `northpool_meta_root/vertex/datasource/`
